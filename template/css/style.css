@@ -1,0 +1,114 @@
+.cbalink {
+    display: none;
+}
+
+#navigat {
+    background: #13213b;
+    color: white;
+}
+
+#navigat a {
+    color: white;
+}
+
+#navigat .logo {
+    height: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#navigat .logo img {
+    height: 50px;
+}
+
+/**Sorting**/
+.sort-block ul {
+    padding: 0;
+}
+
+.sort-block input {
+    width: 100%;
+    border: none;
+    background: #13213b;
+    color: white;
+}
+
+.sort-block input:hover {
+    background: #3b5271;
+}
+
+/** DO or NOT**/
+.task-status-not {
+    color: red;
+}
+
+.task-status-yes {
+    color: green;
+}
+
+.task-item {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset
+}
+
+.task-item p {
+    color: #13213b;
+    font-size: 17px;
+}
+
+.task-item p span {
+    color: black;
+    font-size: 19px;
+}
+
+#form-create .create-input {
+    width: 100%;
+}
+
+#form-create textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.signup-form input {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #13213b;
+    border-color: #13213b;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #13213b;
+}
+
+.task-item img {
+    width: 100%;
+}
+
+@media screen and (max-width: 560px) {
+    .task-item p span {
+        color: black;
+        font-size: 13px;
+    }
+
+    .task-item p {
+        color: #13213b;
+        font-size: 12px;
+    }
+
+
+}
